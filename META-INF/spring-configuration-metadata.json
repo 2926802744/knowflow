@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "spring.ai.vectorstore.elasticsearch",
+      "type": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.ai.vectorstore.elasticsearch.dimensions",
+      "type": "java.lang.Integer",
+      "description": "The number of dimensions in the vector.",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties"
+    },
+    {
+      "name": "spring.ai.vectorstore.elasticsearch.embedding-field-name",
+      "type": "java.lang.String",
+      "description": "The name of the vector field to search against",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties",
+      "defaultValue": "embedding"
+    },
+    {
+      "name": "spring.ai.vectorstore.elasticsearch.index-name",
+      "type": "java.lang.String",
+      "description": "The name of the index to store the vectors.",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties"
+    },
+    {
+      "name": "spring.ai.vectorstore.elasticsearch.initialize-schema",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties"
+    },
+    {
+      "name": "spring.ai.vectorstore.elasticsearch.similarity",
+      "type": "org.springframework.ai.vectorstore.elasticsearch.SimilarityFunction",
+      "description": "The similarity function to use.",
+      "sourceType": "org.springframework.ai.vectorstore.elasticsearch.autoconfigure.ElasticsearchVectorStoreProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
